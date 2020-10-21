@@ -4,6 +4,23 @@ import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord'
 import CreateIcon from '@material-ui/icons/Create'
 import SidebarOption from './SidebarOption'
 import InsertCommentIcon from '@material-ui/icons/InsertComment';
+import InboxIcon from '@material-ui/icons/Inbox';
+import DraftsIcon from '@material-ui/icons/Drafts';
+
+import AppsIcon from '@material-ui/icons/Apps';
+import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
+import FileCopyIcon from '@material-ui/icons/FileCopy';
+import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
+
+
+
+
+
+
+
+
 
 function Sidebar() {
     return (
@@ -19,19 +36,20 @@ function Sidebar() {
                 <CreateIcon />
             </div>
             <SidebarOption Icon={InsertCommentIcon} title=" hello faizan" />
-            <SidebarOption  title=" hello maaz" />
+            <SidebarOption  Icon={InboxIcon} title=" InboxIcon" />
+            <SidebarOption Icon={AppsIcon} title=" Apps" />
+            <SidebarOption  Icon={DraftsIcon} title=" Drafts" />
+            <SidebarOption Icon={BookmarkBorderIcon} title=" BookmarkBorder" />
+            <SidebarOption  Icon={FileCopyIcon} title=" FileCopy" />
+            <SidebarOption Icon={FileCopyIcon} title=" FileCopy" />
             <SidebarOption Icon={InsertCommentIcon} title=" hello faizan" />
-            <SidebarOption  title=" hello maaz" />
-            <SidebarOption Icon={InsertCommentIcon} title=" hello faizan" />
-            <SidebarOption  title=" hello maaz" />
-            <SidebarOption Icon={InsertCommentIcon} title=" hello faizan" />
-            <SidebarOption  title=" hello maaz" />
-            <SidebarOption Icon={InsertCommentIcon} title=" hello faizan" />
-            <SidebarOption  title=" hello maaz" />
-            <SidebarOption Icon={InsertCommentIcon} title=" hello faizan" />
-            <SidebarOption  title=" hello maaz" />
+            <SidebarOption Icon={ExpandLessIcon}  title=" ExpandLess" />
+            
             <hr/>
-            <SidebarOption Icon={InsertCommentIcon} title=" hello faizan" />
+            <SidebarOption Icon={ExpandMoreIcon} title=" ExpandMore" />
+            <SidebarOption  title=" hello maaz" />
+            <SidebarOption  title=" hello maaz" />
+            <SidebarOption  title=" hello maaz" />
             <SidebarOption  title=" hello maaz" />
         </div>
     )
